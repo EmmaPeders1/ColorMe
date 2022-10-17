@@ -7,5 +7,14 @@ button{
   border-radius: 5%;
   border-color: rgb(16, 16, 84);
   color: rgb(16, 16, 84);
-  background-color: aliceblue;
+  background-color: rgb(216, 235, 253);
+}
+
+.button-wrapper :active{
+  margin: 2px;
+}
+
+.button-wrapper :hover{
+  background-color: rgb(158, 204, 244);
+  cursor: pointer;
 }
