@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <div className="header">
-      ColorMe
+      <img src="logo192.png" alt="logo" height={50} />ColorMe
     </div>
   );
 }

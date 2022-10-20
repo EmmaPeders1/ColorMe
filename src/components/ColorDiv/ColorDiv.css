@@ -1,0 +1,12 @@
+.color-div{
+  height: 7rem;
+  width: 7rem;
+  margin: 1rem;
+  border-radius: 5%;
+  background-color: powderblue;
+}
+
+.color-div-wrapper :hover{
+  cursor: pointer;
+  background-color: rgb(124, 185, 194);;
+}

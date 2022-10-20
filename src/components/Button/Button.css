@@ -5,9 +5,9 @@ button{
   padding: 0.5rem;
   letter-spacing: 0.2rem;
   border-radius: 5%;
-  border-color: rgb(16, 16, 84);
-  color: rgb(16, 16, 84);
-  background-color: rgb(216, 235, 253);
+  border-color: rgb(6, 6, 52);
+  color: rgb(6, 6, 52);
+  background-color: powderblue;
 }
 
 .button-wrapper :active{
@@ -15,6 +15,6 @@ button{
 }
 
 .button-wrapper :hover{
-  background-color: rgb(158, 204, 244);
+  background-color: rgb(124, 185, 194);
   cursor: pointer;
 }

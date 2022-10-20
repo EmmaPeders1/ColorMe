@@ -5,7 +5,13 @@ input{
   padding: 0.5rem;
   letter-spacing: 0.2rem;
   border-radius: 5%;
-  border-color: rgb(16, 16, 84);
-  color: rgb(16, 16, 84);
-  background-color: rgb(242, 246, 250);
+  border-color: rgb(6, 6, 52);
+  color: rgb(6, 6, 52);
+  background-color: rgb(246, 249, 252);
+  width: 10rem;
+}
+
+.input-wrapper{
+  display: flex;
+  margin: 0 auto 0 auto;
 }
