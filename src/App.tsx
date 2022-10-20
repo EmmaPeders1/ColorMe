@@ -20,6 +20,7 @@ function App() {
   );
 }
 
+// TODO: add constraints to the input-field
 function buttonClick(){
   const input = document.getElementById("ColorPicker") as HTMLInputElement | null;
   let value = input!.value;
@@ -27,8 +28,9 @@ function buttonClick(){
   errorMessage!.style.visibility = "hidden";
   let colorDiv = document.getElementById("colorDiv") as HTMLDivElement | null;
 
-  if(value !== "" && value.length === 7 && value.charAt(0) === "#"){
+  if(value !== "" && value.length === 7 && value.charAt(0) === "#" ){
     colorDiv!.style.backgroundColor = value;
+    colorDiv!.style.border = "none";
   }
   else{
     errorMessage!.style.visibility = "inherit";
