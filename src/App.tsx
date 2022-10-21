@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Button from './components/Button/Button';
 import ColorDiv from './components/ColorDiv/ColorDiv';
+import DropDown from './components/DropDown/DropDown';
 import Header from './components/Header/Header';
 import Input from './components/Input/Input';
 
@@ -14,6 +15,7 @@ function App() {
         <ColorDiv id={"colorDiv"} onClick = {colorDivClick}/>
         <Input name={'ColorPicker'} label={'Type in a hex-color: '} placeholder={"#B6D0E2"}/>
         <Button onClick={buttonClick} icon={faPaintBrush} label={' PAINT'} />
+        <DropDown />
         <p id="errorMessage">Please have a valid input on the form #XXXXXX</p>
       </div>
     </div>
