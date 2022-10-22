@@ -14,8 +14,9 @@ function App() {
       <div className="mainDiv">
         <ColorDiv id={"colorDiv"} onClick = {colorDivClick}/>
         <Input name={'ColorPicker'} label={'Type in a hex-color: '} placeholder={"#B6D0E2"}/>
-        <Button onClick={buttonClick} icon={faPaintBrush} label={' PAINT'} />
+        <div>or select one by its name: </div>
         <DropDown />
+        <Button onClick={buttonClick} icon={faPaintBrush} label={' PAINT'} />
         <p id="errorMessage">Please have a valid input on the form #XXXXXX</p>
       </div>
     </div>
@@ -41,7 +42,7 @@ function buttonClick(){
 
 function colorDivClick(){
   let colorDiv = document.getElementById("colorDiv") as HTMLDivElement | null;
-  colorDiv!.style.border = "thick solid black";
+  colorDiv!.style.border = "solid rgb(6, 6, 52)";
 }
 
 export default App;

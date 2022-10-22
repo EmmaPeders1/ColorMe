@@ -15,6 +15,6 @@ button{
 }
 
 .button-wrapper :hover{
-  background-color: rgb(124, 185, 194);
+  border: solid rgb(6, 6, 52);
   cursor: pointer;
 }

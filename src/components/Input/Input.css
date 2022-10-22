@@ -13,5 +13,9 @@ input{
 
 .input-wrapper{
   display: flex;
-  margin: 0 auto 0 auto;
+  margin-bottom: 0 auto 0 auto;
+}
+
+.input-wrapper :hover{
+  border: solid rgb(6, 6, 52);
 }
