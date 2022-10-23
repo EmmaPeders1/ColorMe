@@ -1,5 +1,4 @@
-import React, { FC, useEffect, useState } from 'react';
-import ColorDiv from '../ColorDiv/ColorDiv';
+import React, { useState } from 'react';
 import './DropDown.css';
 
 const DropDown = () => {
