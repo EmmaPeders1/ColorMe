@@ -1,7 +1,5 @@
-import { faPaintBrush } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './App.css';
-import Button from './components/Button/Button';
 import ColorGrid from './components/ColorGrid/ColorGrid';
 import DropDown from './components/DropDown/DropDown';
 import Header from './components/Header/Header';
@@ -19,19 +17,19 @@ function App() {
       let value = input!.value;
 
       let errorMessage = document.getElementById("errorMessage") as HTMLParagraphElement | null;
-      errorMessage!.style.visibility = "hidden";
+      errorMessage!.style.display = "none";
 
       let element = document.getElementById(elementId) as HTMLDivElement;
 
-      // TODO: add constraints to the input-field
+      // TODO: add further constraints to the input-field
+      // Do it in the input.tsx-file?
       if(value !== "" && value.length === 7 && value.charAt(0) === "#" ){
         element.style.backgroundColor = value;
         element.style.border = "none";
       }
       else{
-        errorMessage!.style.visibility = "inherit";
+        errorMessage!.style.display = "inline";
       }
-
     });
   });
 
@@ -42,7 +40,7 @@ function App() {
       <p>Write a hex-color or get it by its name:</p>
         <div className="chooseDiv">
           <div>
-            <Input name={'ColorPicker'} placeholder={"#B6D0E2"}/>
+            <Input name={'ColorPicker'}/>
           </div>
           <div>
             <DropDown/>

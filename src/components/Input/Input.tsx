@@ -8,7 +8,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement>{
 const Input: FC<InputProps> = ({name, ...rest}) => {
   return (
     <div className="input-wrapper">
-      <input id={name} {...rest} />
+      <input type = "text" id={name} minLength={7} maxLength={7} placeholder={"#B6D0E2"} {...rest}/>
     </div>
   );
 };
