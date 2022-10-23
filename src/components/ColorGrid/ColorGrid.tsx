@@ -4,12 +4,12 @@ import './ColorGrid.css';
 function ColorGrid() {
   return (
     <div className='div-wrapper'>
-      {/*<ColorDiv />
-      <ColorDiv />
-      <ColorDiv />
-      <ColorDiv />
-      <ColorDiv />
-      <ColorDiv />*/}
+      <ColorDiv id={'1'} />
+      <ColorDiv id={'2'} />
+      <ColorDiv id={'3'} />
+      <ColorDiv id={'4'} />
+      <ColorDiv id={'5'} />
+      <ColorDiv id={'6'} />
     </div>
   );
 }

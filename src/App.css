@@ -1,11 +1,12 @@
 :root{
-  min-width: 55vw;
+  min-width: w;
   max-width: 100vw;
+  background-color: rgb(252, 252, 245);
 }
 
 .mainDiv {
-  min-height: 78vh;
-  max-width: 100vh;
+  min-height: 90vh;
+  max-width: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -13,6 +14,11 @@
   font-size: calc(10px + 2vmin);
   color: rgb(6, 6, 52);
   margin: 0 auto 0 auto;
+  gap: 1rem;
+}
+
+.chooseDiv{
+  display: flex;
   gap: 1rem;
 }
 

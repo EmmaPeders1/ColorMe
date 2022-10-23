@@ -2,10 +2,7 @@
   width: 70%;
   height: 100%;
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(3, 8rem);
   grid-template-rows: auto;
-}
-
-.div-wrapper :hover{
-  cursor: pointer;
 }

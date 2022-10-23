@@ -3,13 +3,11 @@ import './Input.css';
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement>{
   name: string;
-  label: string;
 }
 
-const Input: FC<InputProps> = ({name, label, ...rest}) => {
+const Input: FC<InputProps> = ({name, ...rest}) => {
   return (
     <div className="input-wrapper">
-      <label htmlFor={name}>{label}</label>
       <input id={name} {...rest} />
     </div>
   );
