@@ -60,6 +60,7 @@ input[type=checkbox] {
   height: 25px;
   width: 25px;
 }
+
 .spinner {
   transition: all 0.3s;
   box-sizing: border-box;

@@ -15,6 +15,8 @@ const ColorGrid: FC<ColorGridProps> = ({ id }) => {
       <ColorDiv id={'4'} />
       <ColorDiv id={'5'} />
       <ColorDiv id={'6'} />
+      <ColorDiv id={'7'} />
+      <ColorDiv id={'8'} />
     </div>
   );
   }

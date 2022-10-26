@@ -15,14 +15,6 @@ export default function ToDo(){
             <li>Be able to get saved palettes</li>
             <li>...and/or a page where the user can see the saved palettes</li>
           </ul>
-        <li>Make a page where the user can get information about a color</li>
-          <ul>
-            <li>ColorPicker</li>
-            <li>Input field</li>
-            <li>Div with the color</li>
-            <li>Show hex-code</li>
-            <li>Show rgb-code</li>
-          </ul>
       </ul>
     </div>
   );

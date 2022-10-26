@@ -20,6 +20,9 @@ function Sidebar() {
                     <Link to="/colorTheDivs">Color the divs</Link>
                 </li>
                 <li>
+                    <Link to="/colorInfo">Color info</Link>
+                </li>
+                <li>
                     <Link to="/toDo">TODO</Link>
                 </li>
                 </ul>

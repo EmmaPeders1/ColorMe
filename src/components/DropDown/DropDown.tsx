@@ -15,7 +15,6 @@ const DropDown = () => {
     <div>
       <div className="dropdown-wrapper" >
         <select id="select" onChange={selectChange}>
-          <option disabled value="">-- Color name --</option>
         </select>
       </div>
     </div>

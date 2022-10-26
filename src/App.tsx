@@ -6,6 +6,7 @@ import ColorTheDivs from './pages/ColorTheDivs/ColorTheDivs';
 import Sidebar from './components/Sidebar/Sidebar';
 import './App.css';
 import ToDo from './pages/ToDo/ToDo';
+import ColorInfo from './pages/ColorInfo/ColorInfo';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/colorTheDivs" element={<ColorTheDivs />} />
           <Route path="/toDo" element={<ToDo />} />
+          <Route path="/colorInfo" element={<ColorInfo />} />
         </Routes>
       </Router>
     </div>
