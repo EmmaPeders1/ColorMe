@@ -17,6 +17,6 @@ const ColorGrid: FC<ColorGridProps> = ({ id }) => {
       <ColorDiv id={'6'} />
     </div>
   );
-}
+  }
 
 export default ColorGrid;

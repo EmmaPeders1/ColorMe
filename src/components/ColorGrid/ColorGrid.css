@@ -1,8 +1,10 @@
 .div-wrapper{
-  width: 70%;
-  height: 100%;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 0 auto;
   justify-content: center;
-  grid-template-columns: repeat(3, 8rem);
-  grid-template-rows: auto;
+  width: 50%;
+  height: 100%;
+  gap: 30px;
+  padding-bottom: 30px;
 }

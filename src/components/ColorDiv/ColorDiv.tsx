@@ -14,5 +14,4 @@ const ColorDiv: FC<ColorDivProps> = ({ onClick, id}) => {
   );
 };
 
-
 export default ColorDiv;
