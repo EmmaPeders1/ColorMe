@@ -1,3 +1,5 @@
+import { faCheckSquare, faHome, faPaintRoller, faQuestion } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import './Sidebar.css';
 
@@ -14,16 +16,16 @@ function Sidebar() {
             <div id="sidebarMenu">
                 <ul className="sidebarMenuInner">
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/"><FontAwesomeIcon icon={faHome} /> Home</Link>
                 </li>
                 <li>
-                    <Link to="/colorTheDivs">Color the divs</Link>
+                    <Link to="/colorTheDivs"><FontAwesomeIcon icon={faPaintRoller} /> Color divs</Link>
                 </li>
                 <li>
-                    <Link to="/colorInfo">Color info</Link>
+                    <Link to="/colorInfo"><FontAwesomeIcon icon={faQuestion} /> Color info</Link>
                 </li>
                 <li>
-                    <Link to="/toDo">TODO</Link>
+                    <Link to="/toDo"><FontAwesomeIcon icon={faCheckSquare} /> TODO</Link>
                 </li>
                 </ul>
             </div>

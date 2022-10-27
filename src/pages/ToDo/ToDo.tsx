@@ -15,6 +15,8 @@ export default function ToDo(){
             <li>Be able to get saved palettes</li>
             <li>...and/or a page where the user can see the saved palettes</li>
           </ul>
+          <li>Dark mode</li>
+          <li>Let user change base color (which as of now is "powderblue")</li>
       </ul>
     </div>
   );

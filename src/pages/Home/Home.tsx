@@ -1,4 +1,4 @@
-import { faPaintBrush } from '@fortawesome/free-solid-svg-icons';
+import { faPaintbrush } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 import ColorDiv from '../../components/ColorDiv/ColorDiv';
@@ -21,8 +21,7 @@ export default function Home(){
 
   return(
     <div className="home">
-      <h1>Home</h1>
-      <h2>Welcome to ColorMe <FontAwesomeIcon icon={faPaintBrush}/></h2>
+      <h1>Welcome <FontAwesomeIcon icon={faPaintbrush}/></h1>
       <ColorDiv id={'singleDiv'}  onClick={handleClick}/>
     </div>
   );
